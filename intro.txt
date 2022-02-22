@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aish</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="containeer">
+        <div class="heading">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/intro.html">INTRO</a></li>
+                    <li><a href="/project.html">PROJECT</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/contactme.html">ENQUIRE</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="intro">
+                <h2>About me</h2>
+                <p>“Hi, I am Aishwary Malvi. I completed my B. Tech in Computer Science in 2023 at IES IPS Academy, Indore. I have
+                    worked at ABC IT company for over 6 Month after getting placed there in my third year of college.
+                    As a team leader and project manager, I am well-versed in the stages of application development life
+                    cycle.
+
+                    I currently oversee two teams in my new role at the organisation I joined in 2022.
+
+                    I make it a point to spend the weekends with my family and visit my parents who live down the block.
+                    Fitness is important to me, and I believe that working out at the company gym can cultivate strong
+                    camaraderie between colleagues.”</p>
+                <h2>My Skill</h2>
+                <div class="skills">
+                    <label for="disk_c">HTML:</label>
+                    <meter id="disk_c" value="0.8"></meter><br>
+                    <label for="disk_d">CSS:</label>
+                    <meter id="disk_d" value="0.75">60%</meter><br>
+                    <label for="disk_d">JAVA SCRIPT:</label>
+                    <meter id="disk_d" value="0.65">60%</meter><br>
+                    <label for="disk_d">TYPE SCRIPT:</label>
+                    <meter id="disk_d" value="0.65">60%</meter><br>
+                    <label for="disk_d">ANGULAR JS</label>
+                    <meter id="disk_d" value="0.62">60%</meter><br>
+                    <label for="disk_d">REACT JS</label>
+                    <meter id="disk_d" value="0.6">60%</meter><br>
+                </div>
+                <h2>Education</h2>
+                <div class="table">
+                    
+                    <table>
+                        <tr>
+                            <th>Sr.NO</th>
+                            <th>Class Or Degree</th>
+                            <th>School Or Institute</th>
+                            <th>Percentage</th>
+                        </tr>
+                        <tr>
+                            <td>1.</td>
+                            <td>10<sup>th</sup></td>
+                            <td>Macro Vision Academy Burhanpur M.P</td>
+                            <td>90%</td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>12<sup>th</sup></td>
+                            <td>Macro Vision Academy Burhanpu M.P</td>
+                            <td>70%</td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>B.Tech(CS)+Honors(AI+ML)</sup></td>
+                            <td>IES IPS Academy Indore M.P</td>
+                            <td>85%</td>
+                        </tr>
+                    </table>
+                </div>
+                <h2>Hobbies</h2>
+                <div class="hob">
+                <ul>
+                    <li>Gossip</li>
+                    <li>watching Film</li>
+                    <li>Making People Angry</li>
+                    <li>Arguing</li>
+                    <li>Bike Ride</li>
+                    <li>Tennis</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

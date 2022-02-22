@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.containeer{
+    display: flex;
+}
+.heading{
+    background-color: rgb(139, 158, 155);
+    font-family: 'Bitter', serif;
+    width:240px;
+    height:100vh;
+    color: rgb(0, 0, 0);
+}
+.heading nav{
+    padding: 25px;
+    color: rgb(0, 0, 0);
+}
+.heading nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 10px;
+    color: rgb(17, 17, 17);
+}
+.heading nav li a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+}
+.main{
+    background-color: rgb(255, 251, 251);
+    font-family: 'Bitter', serif;
+    width: auto;
+    height: auto;
+    color: rgb(5, 5, 5);
+}
+.info{
+    /*background-color: chocolate;*/
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: 170vh;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    color: rgb(2, 2, 2);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Bitter', serif;
+    font-family: 'Source Code Pro', monospace;
+}
+.devpic img{
+    height: auto;
+    width: auto;;
+}
+.name{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.aishinfo{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(2, 2, 2);
+
+}
+.about{
+    font-size: 20px;    
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    width: 550px;;
+}
+.aboutmore{
+    font-size: 22px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 25px;
+    color: rgb(16, 17, 17);
+
+}
+.devinfo p{
+    font-weight: 700;
+}
+.buttons{
+    margin-top: 35px;
+}
+.buttons button{
+    background-color: darkslategray;
+    padding: 10px 10px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 0px 10px;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    background-color: rgb(50, 52, 54);
+}
+.divpic img{
+    height: 781vh;
+    
+}
+/*Intro page*/
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+}
+
+.intro p{
+    font-family: 'Bitter', serif;
+    margin: 12px;
+}
+
+.skills{
+    border: 2px solid rgb(20, 20, 20);
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin: 20px
+}
+.table{
+    border: 2px solid rgb(20, 20, 20);
+    margin: 20px;
+    
+}
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+table{
+    width: 100%;
+}
+
+.hob ul{
+    margin-left: 50px;
+}
+/*Enquire page*/
+
+input[type=text], textarea {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    width: 95%;
+  }
+  input[type=number]{
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  input[type=email]{
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  input[type=submit],[type=reset] {
+    background-color: #04e2f1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit],[type=reset]:hover {
+    background-color: #274241;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 50px;
+    width: 1000px;
+
+  }
+  span{
+      color: red;
+      font-size: 15px;
+  }
+/*blog page*/
+.blog
+{
+    margin: 15px;
+    display:inline-flexbox;
+    border: 50px solid white;
+}
+.box{ 
+    border: 2px solid rgb(8, 8, 8);
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+.box img{ 
+   height: 50px;
+   margin: auto;
+   display: block;
+   
+}
+
+.box p{
+    font-family: 'Bree Serif', serif;
+    color: black;
+
+} 
+.box a:link{
+    text-decoration: none;
+}
+.box button{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.box button:hover{
+    text-decoration: none;
+    color: #274241;
+}
+.box button:active {
+    text-decoration: underline;
+  }
+/*project page*/
+.pro_heading{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bolder;
+}
+.pro{
+    margin: 34px;
+    display: flex;
+}
+
+.probox{ 
+    border: 2px solid rgb(14, 13, 13);
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.probox img{ 
+    height: 65px;
+    width: 146px;
+    display: block;
+    cursor: pointer;
+     }
+.probox a:link{
+    text-decoration: none;
+}
+
+button{
+        background-color: #04e2f1;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+button:hover {
+        background-color: #274241;
+      }
+
+ h3{
+    
+    text-align: center;
+    font-family: 'Bitter', serif;
+}

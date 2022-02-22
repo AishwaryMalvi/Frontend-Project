@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aish</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    
+</head>
+<body>
+    <div class="containeer">
+        <div class="heading">
+         <nav>
+        <ul>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/intro.html">INTRO</a></li>
+            <li><a href="/project.html">PROJECT</a></li>
+            <li><a href="/blog.html">BLOG</a></li>
+            <li><a href="/contactme.html">ENQUIRE</a></li>
+        </ul>
+        </nav>
+        </div>
+        <div class="main">
+            <div class="container">
+              <form action="" >
+                  <div class="form-group">
+                  <label for="">Username:</label>
+                  <input type="text" name="" id="username" class="form-control" required>
+                  <span id="usererror" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="">Password:</label>
+                    <input type="text" name="" id="password" class="form-control" required>
+                    <span id="passworderror" class="text-danger"></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="">Confirm Password</label>
+                    <input type="text" name="" id="confirmpassword" class="form-control" required>
+                    <span id="confirmpassworderror" class="text-danger"></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="">Email:</label>
+                    <input type="text" name="" id="email" class="form-control" required>
+                    <span id="emailerror" class="text-danger"></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="">Number:</label>
+                    <input type="text" name="" id="number" class="form-control" required>
+                    <span id="numbererror" class="text-danger"></span>
+                  </div>
+                  <input type="reset" value="Reset">
+                  <button onclick="validation()">Submit</button>
+              </form>  
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>

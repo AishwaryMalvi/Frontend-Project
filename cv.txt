@@ -1,0 +1,12 @@
+hii
+my name is aishwary malvi
+
+skills:-
+html
+css
+JavaScript
+bootstrap
+java
+hibernate
+spring
+mysql
